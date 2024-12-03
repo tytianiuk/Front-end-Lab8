@@ -1,7 +1,12 @@
 import '../index.css';
+import Header from './header/header';
 
 const Page = () => {
-  return <div>Chesshop</div>;
+  return (
+    <div className='font-comfortaa'>
+      <Header />
+    </div>
+  );
 };
 
 export default Page;

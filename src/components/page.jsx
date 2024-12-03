@@ -2,6 +2,7 @@ import '../index.css';
 import Header from './header/header';
 import StartSection from './start-section';
 import CategoriesSection from './category/categories-section';
+import LatestProductSection from './latest-product/latest-product-section';
 
 const Page = () => {
   return (
@@ -10,6 +11,7 @@ const Page = () => {
       <main>
         <StartSection />
         <CategoriesSection />
+        <LatestProductSection />
       </main>
     </div>
   );

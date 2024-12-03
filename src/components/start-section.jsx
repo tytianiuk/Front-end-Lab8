@@ -6,7 +6,7 @@ const StartSection = () => {
     <div className='relative mb-48 max-h-[1000px] h-[1000px] bg-blue-100 flex items-center justify-center'>
       <div className='w-2/5 h-full relative'>
         <img
-          src='/images/first-section.png'
+          src='./images/first-section.png'
           alt='Magnus Carlsen'
           className='w-full absolute bottom-0 left-0'
         />

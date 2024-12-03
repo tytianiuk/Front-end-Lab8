@@ -21,7 +21,7 @@ const ChessItemsSection = () => {
         </div>
       </div>
       <div className='place-self-center w-full'>
-        <img src='/images/woman-with-dress.png' alt='Woman with dress' />
+        <img src='./images/woman-with-dress.png' alt='Woman with dress' />
       </div>
       <ItemsBlock />
     </div>

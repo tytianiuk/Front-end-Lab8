@@ -21,10 +21,10 @@ const NavBar = ({ items, className, isCollapsible = true }) => {
       </div>
 
       {isCollapsible && (
-        <div className='xl:hidden flex justify-center'>
+        <div className='mini:col-span-3 sm:col-span-1 xl:hidden flex justify-center'>
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className='py-3 px-5 lg:px-10 border-2 border-gray-300 rounded-full'
+            className=' py-3 px-5 lg:px-10 border-2 border-gray-300 rounded-full'
           >
             Menu
           </button>

@@ -3,7 +3,7 @@ import { items } from '../../constants/items';
 
 const ItemsBlock = () => {
   return (
-    <div className='flex flex-col col-span-3 xl:col-span-1 justify-end text-3xl xl:text-xl font-mvboli font-bold '>
+    <div className='flex flex-col col-span-3 xl:col-span-1 justify-end text-xl sm:text-3xl xl:text-xl font-mvboli font-bold '>
       {items.map((item) => (
         <div
           key={item.id}

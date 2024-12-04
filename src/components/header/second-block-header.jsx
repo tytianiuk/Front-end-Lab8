@@ -7,18 +7,18 @@ import Button from '../ui/button';
 
 const SecondBlockHeader = () => {
   return (
-    <div className='bg-white grid grid-cols-6 2xl:grid-cols-7 lg:gap-4 items-center w-full py-4'>
-      <div className='col-span-1 ml-4 lg:ml-6 text-xl lg:text-2xl font-bold'>
+    <div className='bg-white grid grid-cols-6 2xl:grid-cols-7 gap-2 lg:gap-4 items-center w-full py-4'>
+      <div className='col-span-3 place-self-center sm:place-self-auto sm:col-span-1 ml-4 lg:ml-6 mini:text-2xl sm:text-xl lg:text-2xl font-bold'>
         Chesshop
       </div>
       <NavBar
         items={navBarWhite}
         className={
-          'col-span-1 xl:col-span-2 2xl:col-span-3 flex w-full justify-around'
+          'col-span-3 sm:col-span-1 xl:col-span-2 2xl:col-span-3 flex w-full justify-around'
         }
         menu={true}
       />
-      <div className='col-span-4 xl:col-span-3 flex '>
+      <div className='col-span-6 sm:col-span-4 xl:col-span-3 flex '>
         <div className='lg:pr-6 items-center w-full flex justify-around'>
           <input
             type='search'
@@ -29,7 +29,7 @@ const SecondBlockHeader = () => {
           <CartIcon />
           <Button
             className={
-              'bg-blue-500 hover:bg-blue-600 active:bg-blue-800 xl:text-xl'
+              'bg-blue-500 hover:bg-blue-600 active:bg-blue-800 mini:text-md xl:text-xl'
             }
           >
             Sign in

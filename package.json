@@ -1,7 +1,6 @@
 {
   "name": "chesshop",
   "version": "0.1.0",
-  "homepage": "https://tytianiuk.github.io/Front-end-Lab8",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

@@ -5,9 +5,9 @@ import NewCollection from './new-collection';
 const Category = ({ title, newCollection, discount, bgColor, src }) => {
   return (
     <div
-      className={`relative max-w-[500px] max-h-[250px] ${bgColor} grid grid-cols-2 text-2xl rounded-xl content-center cursor-pointer`}
+      className={`relative max-w-[500px] min-w-[350px] min-h-[200px] 2xl:max-w-[600px] 2x:min-w-[400px]  ${bgColor} grid grid-cols-2 text-xl xl:text-xl 2xl:text-2xl rounded-xl content-center cursor-pointer`}
     >
-      <div className='px-4'>
+      <div className='px-2'>
         <img src={src} alt='Chess Set' className='w-full h-full object-cover' />
       </div>
       <div className='flex flex-col justify-center'>

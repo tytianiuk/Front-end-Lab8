@@ -4,12 +4,14 @@ import Stars from '../ui/stars';
 const Product = ({ product }) => {
   return (
     <div key={product.id} className='relative m-5 cursor-pointer'>
-      <div className={`bg-neutral-200 rounded-xl`}>
+      <div className={`bg-neutral-200 rounded-xl w-full h-full`}>
         <img src={product.image} alt={product.name} className='object-cover' />
       </div>
       <Stars rating={product.rating} />
-      <div className='text-center text-2xl'>{product.name}</div>
-      <div className='text-center mt-2 font-bold text-3xl'>
+      <div className='text-center text-xl lg:text-2xl xl:text-xl 2xl:text-2xl'>
+        {product.name}
+      </div>
+      <div className='text-center mt-2 font-bold text-2xl lg:text-3xl'>
         <span className='mr-2'>${product.discountedPrice}</span>
         <span className='ml-2 text-red-500 line-through'>
           ${product.originalPrice}

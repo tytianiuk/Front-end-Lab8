@@ -4,8 +4,10 @@ import Categories from './categories';
 
 const CategoriesSection = () => {
   return (
-    <div className='relative bg-white flex flex-col items-center mb-48'>
-      <SectionTitle className={'pb-12'}>Shop by Category</SectionTitle>
+    <div className='relative bg-white flex flex-col items-center mb-24 xl:mb-48'>
+      <SectionTitle className={'pb-12 text-5xl xl:text-6xl'}>
+        Shop by Category
+      </SectionTitle>
       <Categories />
     </div>
   );

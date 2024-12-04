@@ -3,7 +3,7 @@ import Category from './category';
 import { categories } from '../../constants/categories';
 const Categories = () => {
   return (
-    <div className='grid xl:grid-cols-3 gap-14 mx-24'>
+    <div className='grid xl:grid-cols-3 gap-14 xl:mx-12'>
       {categories.map((category, index) => (
         <Category
           key={index}
